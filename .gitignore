@@ -1,0 +1,11 @@
+[pytest]
+addopts =
+    --browser chromium
+    --headed
+    --base-url https://www.google.com.br
+    --slowmo 1000
+    --video on
+    --p no:warnings
+
+
+
