@@ -1,6 +1,4 @@
-# Created by rafael.pantoja at 15/05/2024
 Feature: acessar a pagina do google
-
 
 
 
@@ -8,4 +6,4 @@ Feature: acessar a pagina do google
   Scenario: Validar nome se existe na busca do google
     Given que acesso a pagina do google
     When pesquiso por "neymar"
-    Then eu vejo o resultado da pesquisa
+    Then devo validar se existe esse nome na busca
